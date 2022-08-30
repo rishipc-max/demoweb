@@ -253,7 +253,7 @@ a { color: inherit; }
 body {
   text-align: center;
   background-color: #ececec;
-  overflow: hidden;
+  overflow-x: hidden;
 
 }
 
