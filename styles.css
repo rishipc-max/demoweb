@@ -1,0 +1,358 @@
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes bodyeffect {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateX(100%);}
+  100% { opacity: 1; transform: translateX(0);}
+}
+.containersds{
+  animation: 1.5s ease-out 0s 1 fadeIn;
+}
+.navbar {
+  /* This section calls the slideInFromLeft animation we defined above */
+  animation: 1s ease-out 0s 1 slideInFromTop;
+}
+#mainbody{
+  position:relative;
+  top: 0.5rem;
+}
+.circles{
+  position: absolute;
+  top: 9rem;
+
+
+}
+#foot{position: absolute;
+ top: 55.1rem;
+ width: 100%;
+}
+.gg{
+font-weight: 700;
+position: absolute;
+top: 0.4rem;
+left: 4rem;
+}
+.bb{
+  width: 100%;
+}
+ .heading{
+  font-weight: bold;
+  color: black;
+  font-family: azonic;
+  font-size: 24px;
+}
+.fa-circle{
+  position: absolute;
+  left: 2.5rem;
+  top: 1.3rem;
+  color: #f3a333;
+}
+.sub-heading{
+  padding-top: 0.59rem;
+  font-family:serif;
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+
+
+img{
+  border-radius: 50%;
+  width: 480px;
+  height: 480px;
+  top: 16rem; left: 16rem;
+  position: absolute;
+}
+
+.hellointrodiv{
+  position: relative;
+  top: 18.6rem;
+  left :8rem;
+}
+.pcontentdiv{
+  position: relative;
+  left: 8.5rem;
+  top: 20.3rem;
+}
+.aboutmecontentdiv{
+  position: relative;
+  left: 49.3rem;
+  top: 20rem;
+  width: 25%;
+}
+.hellointro{
+  font-size: 70px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  color: black;
+ text-shadow: 1px 1px 2px #000000;
+ font-family: 'PT Sans', sans-serif;
+
+}
+.nav-link{
+  position: relative;
+  left: 70rem;
+}
+hr{
+  position: absolute;
+  top: 54rem;
+  width: 100%;
+
+  background-color: #9ba6a5;
+
+}
+.pcontent{
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.aboutmecontent{
+
+  line-height: 1.7rem;
+  text-align: left;
+}
+
+
+
+.btn1{
+  position: absolute;
+  top: 21rem;
+  left: 47.1rem;
+  border-radius: 50%;
+  width: 135px;
+  height: 135px;
+  background-color:#FFD700;
+}
+.circle1{
+  position: absolute;
+  left: 0;
+}
+.circle2{
+  position: absolute;
+  left: 0;
+}
+.circle3{
+  position: absolute;
+  left: 0;
+}
+
+
+.btn2{
+  position: absolute;
+  top: 21rem;
+  left: 56.65rem;
+  border-radius: 50%;
+  width: 135px;
+  height: 135px;
+  background-color: #FF4500;
+}
+
+.btn3{
+  position: absolute;
+  top: 21rem;
+  left: 66rem;
+  border-radius: 50%;
+  width: 135px;
+  height: 135px;
+  background-color: #4682B4;
+}
+.innercirclecontent{
+font-weight: bold;
+}
+
+
+.style{
+	border-top: 1px solid #8c8b8b;
+  width: 96%;
+  position: absolute;top: 54.7rem;
+  left: 2rem;
+
+}
+.footertextalign{
+  text-align: left;
+}
+.phn{
+  position: absolute;
+  left: 3rem;
+  top: 30rem;
+  font-family: 'ubuntu'sans-serif;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.phnvalue{
+  position: absolute;
+  left: 5.5rem;
+  top: 62.5rem;
+  font-family: 'ubuntu'sans-serif;
+}
+.email{
+  position: absolute;
+  left: 30rem;
+  top: 60rem;
+  font-family: 'ubuntu'sans-serif;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.emailvalue{
+  position: absolute;
+  left: 30rem;
+  top: 62.5rem;
+  font-family: 'ubuntu'sans-serif;
+}
+.socialmedia{
+  position: absolute;
+  left: 56rem;
+  top: 60rem;
+  font-family: 'ubuntu'sans-serif;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.value1{
+  position: absolute;
+  left: 56rem;
+  top: 62.5rem;
+}
+.value2{
+  position: absolute;
+  left: 58.4rem;
+  top: 62.5rem;
+}
+.value3{
+  position: absolute;
+  left: 60.7rem;
+  top: 62.5rem;
+}
+.creatorinfo{
+  position: absolute;
+  left: 75rem;
+  top: 62.5rem;
+  font-family: 'ubuntu'sans-serif;
+}
+a { color: inherit; }
+
+.stylez{
+  margin-top: 58rem;
+}
+
+
+body {
+  text-align: center;
+  background-color: #ececec;
+  overflow: hidden;
+
+}
+
+ .navbar-custom{
+   background-color: #d9dad7;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+ }
+ .navbar-custom .navbar-brand{
+     color: #222831;
+}
+.navbar-custom .navbar-brand:hover{
+    color: #ffffff;
+}
+.navbar-custom .navbar-nav .nav-link {
+    color: #222831;
+}
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+
+@media only screen and (max-width:560px) {
+  body {
+    text-align: left;
+    background-color: #e3e3e3;
+  }
+  img{
+    position: absolute;
+    width: 70% ;
+    top: 36rem;
+    height: 90%;
+    left:90px;
+  }
+
+#mainbody{
+  padding-top: 2rem;
+  padding-left: 2rem;
+  width: 80%;
+}
+.gg{
+font-weight: 700;
+position: relative;top: 0.1rem;
+left: 0.2rem;
+}
+.fa-circle{
+  position: relative;
+  top: 0;
+  left: 0;
+  color: #f3a333;
+}
+.oyy{
+  position: relative;
+  left: 2rem;
+}
+.nav-link{
+  position: relative;
+  left: 10rem;
+
+}
+.hellointrodiv{
+
+position: relative;
+top: 7rem;
+left: 0;
+}
+.hellointro{
+  font-family: 'PT Sans', sans-serif;
+}
+.aboutmecontentdiv{
+position: relative;
+top: 7rem;
+left: 0;
+width: 100%;
+}
+.pcontentdiv{
+  position: relative;
+top: 7.5rem;
+left: 0;
+}
+.btn1{
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  left: 1.5rem;
+  top: 9rem;
+
+}
+.btn2{
+
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  left: 9rem;
+  top: 9rem;
+}
+.btn3{
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  left: 16.5rem;
+  top: 9rem;
+}
